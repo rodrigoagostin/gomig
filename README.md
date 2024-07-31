@@ -244,6 +244,16 @@ This will generate a migration file:
 DROP INDEX users_name_idx;
 ```
 
+### Running Migrations
+
+To run all pending migrations:
+
+```sh
+gomig migrate --db "postgres://user:password@localhost/dbname?sslmode=disable"
+```
+
+This command will apply all pending migrations and record them in the `gomig_migrations` table.
+
 ### Library
 
 To use GoMig as a library in your Go project, import the `migration` package and call the `Generate` function:
