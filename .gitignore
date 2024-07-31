@@ -1,2 +1,41 @@
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+vendor/
+
+# Go workspace file
+go.work
+
+# Logs and database files
+*.log
+*.sqlite
+
+# IDE and editor files
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Go build files
+bin/
+build/
+
+# Node modules (if using with frontend development)
+node_modules/
+
+# Migration files (if not needed in repo)
 migrations/
-gomig
